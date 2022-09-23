@@ -40,20 +40,22 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(3, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 13);
+            this.label1.Size = new System.Drawing.Size(58, 20);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Registro de Anuncio";
+            this.label1.Text = "Marca";
             // 
             // btnEntradaPersona
             // 
+            this.btnEntradaPersona.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.btnEntradaPersona.Location = new System.Drawing.Point(179, 114);
             this.btnEntradaPersona.Name = "btnEntradaPersona";
             this.btnEntradaPersona.Size = new System.Drawing.Size(75, 23);
             this.btnEntradaPersona.TabIndex = 10;
             this.btnEntradaPersona.Text = "Entrar";
-            this.btnEntradaPersona.UseVisualStyleBackColor = true;
+            this.btnEntradaPersona.UseVisualStyleBackColor = false;
             this.btnEntradaPersona.Click += new System.EventHandler(this.btnAltaRegistroAnuncio_Click);
             // 
             // txtBoxCI
@@ -88,12 +90,13 @@
             // 
             // btnSalidaPersona
             // 
+            this.btnSalidaPersona.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.btnSalidaPersona.Location = new System.Drawing.Point(179, 143);
             this.btnSalidaPersona.Name = "btnSalidaPersona";
             this.btnSalidaPersona.Size = new System.Drawing.Size(75, 23);
             this.btnSalidaPersona.TabIndex = 228;
             this.btnSalidaPersona.Text = "Salida";
-            this.btnSalidaPersona.UseVisualStyleBackColor = true;
+            this.btnSalidaPersona.UseVisualStyleBackColor = false;
             this.btnSalidaPersona.Click += new System.EventHandler(this.btnSalidaPersona_Click);
             // 
             // Registro
@@ -101,7 +104,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.ClientSize = new System.Drawing.Size(498, 422);
+            this.ClientSize = new System.Drawing.Size(444, 421);
             this.ControlBox = false;
             this.Controls.Add(this.panel1);
             this.Name = "Registro";

@@ -34,17 +34,18 @@
             this.btnRegistro = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnListarRegistroAnuncio = new System.Windows.Forms.Button();
+            this.btnListarRegistro = new System.Windows.Forms.Button();
             this.txtBoxCIListar = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnEliminarRegistro = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnUsuario
             // 
-            this.btnUsuario.BackColor = System.Drawing.Color.YellowGreen;
-            this.btnUsuario.Location = new System.Drawing.Point(12, 16);
+            this.btnUsuario.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.btnUsuario.Location = new System.Drawing.Point(26, 16);
             this.btnUsuario.Name = "btnUsuario";
             this.btnUsuario.Size = new System.Drawing.Size(144, 23);
             this.btnUsuario.TabIndex = 0;
@@ -54,17 +55,18 @@
             // 
             // btnCerrar
             // 
+            this.btnCerrar.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.btnCerrar.Location = new System.Drawing.Point(48, 436);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(75, 23);
             this.btnCerrar.TabIndex = 3;
             this.btnCerrar.Text = "Salir";
-            this.btnCerrar.UseVisualStyleBackColor = true;
+            this.btnCerrar.UseVisualStyleBackColor = false;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.btnRegistro);
             this.panel1.Controls.Add(this.btnCerrar);
@@ -76,12 +78,13 @@
             // 
             // btnRegistro
             // 
-            this.btnRegistro.Location = new System.Drawing.Point(12, 45);
+            this.btnRegistro.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.btnRegistro.Location = new System.Drawing.Point(26, 45);
             this.btnRegistro.Name = "btnRegistro";
             this.btnRegistro.Size = new System.Drawing.Size(144, 23);
             this.btnRegistro.TabIndex = 6;
             this.btnRegistro.Text = "Registro Entrada/Salida";
-            this.btnRegistro.UseVisualStyleBackColor = true;
+            this.btnRegistro.UseVisualStyleBackColor = false;
             this.btnRegistro.Click += new System.EventHandler(this.btnRegistro_Click);
             // 
             // label1
@@ -101,15 +104,15 @@
             this.dataGridView1.Size = new System.Drawing.Size(443, 315);
             this.dataGridView1.TabIndex = 224;
             // 
-            // btnListarRegistroAnuncio
+            // btnListarRegistro
             // 
-            this.btnListarRegistroAnuncio.Location = new System.Drawing.Point(419, 362);
-            this.btnListarRegistroAnuncio.Name = "btnListarRegistroAnuncio";
-            this.btnListarRegistroAnuncio.Size = new System.Drawing.Size(75, 23);
-            this.btnListarRegistroAnuncio.TabIndex = 225;
-            this.btnListarRegistroAnuncio.Text = "Listar";
-            this.btnListarRegistroAnuncio.UseVisualStyleBackColor = true;
-            this.btnListarRegistroAnuncio.Click += new System.EventHandler(this.btnListarRegistroAnuncio_Click);
+            this.btnListarRegistro.Location = new System.Drawing.Point(419, 362);
+            this.btnListarRegistro.Name = "btnListarRegistro";
+            this.btnListarRegistro.Size = new System.Drawing.Size(75, 23);
+            this.btnListarRegistro.TabIndex = 225;
+            this.btnListarRegistro.Text = "Buscar";
+            this.btnListarRegistro.UseVisualStyleBackColor = true;
+            this.btnListarRegistro.Click += new System.EventHandler(this.btnListarRegistro_Click);
             // 
             // txtBoxCIListar
             // 
@@ -127,6 +130,16 @@
             this.label2.TabIndex = 227;
             this.label2.Text = "CI Persona";
             // 
+            // btnEliminarRegistro
+            // 
+            this.btnEliminarRegistro.Location = new System.Drawing.Point(500, 362);
+            this.btnEliminarRegistro.Name = "btnEliminarRegistro";
+            this.btnEliminarRegistro.Size = new System.Drawing.Size(75, 23);
+            this.btnEliminarRegistro.TabIndex = 228;
+            this.btnEliminarRegistro.Text = "Eliminar";
+            this.btnEliminarRegistro.UseVisualStyleBackColor = true;
+            this.btnEliminarRegistro.Click += new System.EventHandler(this.btnEliminarRegistro_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -134,9 +147,10 @@
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(656, 467);
             this.ControlBox = false;
+            this.Controls.Add(this.btnEliminarRegistro);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtBoxCIListar);
-            this.Controls.Add(this.btnListarRegistroAnuncio);
+            this.Controls.Add(this.btnListarRegistro);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
@@ -159,8 +173,9 @@
         private System.Windows.Forms.Button btnRegistro;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button btnListarRegistroAnuncio;
+        private System.Windows.Forms.Button btnListarRegistro;
         private System.Windows.Forms.TextBox txtBoxCIListar;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnEliminarRegistro;
     }
 }

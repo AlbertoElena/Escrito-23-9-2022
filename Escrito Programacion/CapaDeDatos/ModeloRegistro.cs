@@ -46,16 +46,14 @@ namespace CapaDeDatos
             this.comando.ExecuteNonQuery();
         }
 
-
-        //***************************************************************************************************************************************************
-        /*
-        public void Obtener(int CI)
+        public void Eliminar()
         {
-            obtenerFilaPorCI(CI);
-            llenarCamposDesdeDataReader();
+            this.comando.CommandText = "DELETE FROM marca WHERE CIPersona = @CIPersona";
+            this.comando.Parameters.AddWithValue("@CIPersona", this.CI);
+            this.comando.Prepare();
+            this.comando.ExecuteNonQuery();
+        }
 
-        } 
-        */
         private void llenarCamposDesdeDataReader()
         {
             this.CI = Int32.Parse(this.dataReader["CIPersona"].ToString());
@@ -63,17 +61,6 @@ namespace CapaDeDatos
             this.Salida = this.dataReader["FechaHoraSalida"].ToString();
         }
 
-     /*   
-        private void obtenerFilaPorCI(int CI)
-        {
-            this.comando.CommandText = "SELECT * FROM marca WHERE CI = @CIPersona";
-            this.comando.Parameters.AddWithValue("@CIPersona", this.CI);
-            this.comando.Prepare();
-            this.dataReader = this.comando.ExecuteReader();
-            this.dataReader.Read();
-        }
-      */
-        
         public List<ModeloRegistro> Obtener(int CI)
         {
             List<ModeloRegistro> Registro = obtenerTodasLasFilas(CI);

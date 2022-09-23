@@ -41,7 +41,7 @@ namespace CapaVisual
          this.Hide();
        }
 
-        private void btnListarRegistroAnuncio_Click(object sender, EventArgs e)
+        private void btnListarRegistro_Click(object sender, EventArgs e)
         {
             try
             {
@@ -53,6 +53,20 @@ namespace CapaVisual
                 dataGridView1.AllowUserToAddRows = false;
                 dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
                 dataGridView1.DataSource = TablaRegistro;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("A ocurrido un error vuelva a ingresar la CI");
+            }
+        }
+
+        private void btnEliminarRegistro_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                RegistroControlador.Eliminar(
+                Int32.Parse(txtBoxCIListar.Text)
+                );
             }
             catch (Exception ex)
             {

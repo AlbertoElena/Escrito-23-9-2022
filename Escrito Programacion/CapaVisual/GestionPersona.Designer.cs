@@ -50,7 +50,7 @@
             // 
             // btnMenu
             // 
-            this.btnMenu.BackColor = System.Drawing.Color.YellowGreen;
+            this.btnMenu.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.btnMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMenu.Location = new System.Drawing.Point(12, 12);
             this.btnMenu.Name = "btnMenu";
@@ -79,7 +79,7 @@
             // 
             // btnModificarPersonas
             // 
-            this.btnModificarPersonas.BackColor = System.Drawing.Color.YellowGreen;
+            this.btnModificarPersonas.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.btnModificarPersonas.Location = new System.Drawing.Point(143, 234);
             this.btnModificarPersonas.Name = "btnModificarPersonas";
             this.btnModificarPersonas.Size = new System.Drawing.Size(100, 23);
@@ -90,7 +90,7 @@
             // 
             // btnEliminarPersonas
             // 
-            this.btnEliminarPersonas.BackColor = System.Drawing.Color.YellowGreen;
+            this.btnEliminarPersonas.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.btnEliminarPersonas.Location = new System.Drawing.Point(143, 205);
             this.btnEliminarPersonas.Name = "btnEliminarPersonas";
             this.btnEliminarPersonas.Size = new System.Drawing.Size(100, 23);
@@ -102,7 +102,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(275, 186);
+            this.label12.Location = new System.Drawing.Point(295, 186);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(17, 13);
             this.label12.TabIndex = 82;
@@ -118,11 +118,11 @@
             // 
             // btnListarPersonas
             // 
-            this.btnListarPersonas.BackColor = System.Drawing.Color.YellowGreen;
-            this.btnListarPersonas.Location = new System.Drawing.Point(442, 176);
+            this.btnListarPersonas.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.btnListarPersonas.Location = new System.Drawing.Point(502, 174);
             this.btnListarPersonas.Margin = new System.Windows.Forms.Padding(2);
             this.btnListarPersonas.Name = "btnListarPersonas";
-            this.btnListarPersonas.Size = new System.Drawing.Size(129, 25);
+            this.btnListarPersonas.Size = new System.Drawing.Size(89, 25);
             this.btnListarPersonas.TabIndex = 80;
             this.btnListarPersonas.Text = "Listar";
             this.btnListarPersonas.UseVisualStyleBackColor = false;
@@ -135,12 +135,12 @@
             this.dataGridViewPersona.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridViewPersona.Name = "dataGridViewPersona";
             this.dataGridViewPersona.RowTemplate.Height = 31;
-            this.dataGridViewPersona.Size = new System.Drawing.Size(359, 141);
+            this.dataGridViewPersona.Size = new System.Drawing.Size(438, 141);
             this.dataGridViewPersona.TabIndex = 79;
             // 
             // btnGuardarPersonas
             // 
-            this.btnGuardarPersonas.BackColor = System.Drawing.Color.YellowGreen;
+            this.btnGuardarPersonas.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.btnGuardarPersonas.Location = new System.Drawing.Point(143, 176);
             this.btnGuardarPersonas.Name = "btnGuardarPersonas";
             this.btnGuardarPersonas.Size = new System.Drawing.Size(100, 23);
@@ -197,9 +197,9 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(43, 17);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(135, 13);
+            this.label7.Size = new System.Drawing.Size(134, 13);
             this.label7.TabIndex = 107;
-            this.label7.Text = "Administrador crea cuentas";
+            this.label7.Text = "Gestion datos de Personas";
             // 
             // txtApellidoPersona
             // 
@@ -213,7 +213,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkCyan;
+            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(800, 282);
             this.ControlBox = false;
             this.Controls.Add(this.txtApellidoPersona);

@@ -70,15 +70,15 @@ namespace CapaVisual
                 EntradaCargado,
                 Salida
                 );
+
+                Menu ventana = new Menu();
+                ventana.Show();
+                this.Dispose();
             }
             catch (Exception ex)
             {
                 MessageBox.Show("A ocurrido un error");
             }
-
-            Menu ventana = new Menu();
-            ventana.Show();
-            this.Dispose();
         }
     }
 }

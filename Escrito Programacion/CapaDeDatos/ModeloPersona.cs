@@ -37,22 +37,6 @@ namespace CapaDeDatos
             this.comando.ExecuteNonQuery();
 
         }
-        /*
-        
-        public void ObtenerPorNombre()
-        {
-            this.comando.CommandText = "SELECT Nombrecuenta,ContrasenaCuenta FROM cuenta WHERE NombreCuenta = @NombreCuenta";
-            this.comando.Parameters.AddWithValue("@NombreCuenta", this.NombreCuenta);
-            this.comando.Prepare();
-            this.dataReader = this.comando.ExecuteReader();
-
-            if (!this.dataReader.HasRows) return;
-
-            this.dataReader.Read();
-            this.NombreCuenta = this.dataReader["NombreCuenta"].ToString();
-            this.ContrasenaCuenta = this.dataReader["ContrasenaCuenta"].ToString();
-        } */
-        
         public void Obtener(int CI)
         {
             obtenerFilaPorId(CI);

@@ -21,7 +21,7 @@ namespace CapaLogica
                 p.Entrada = Entrada;
                 p.Salida = Entrada;
                 p.Insertar();
-                MessageBox.Show("Los datos se Cargaron exitosamente");
+                MessageBox.Show("Se creo el registro de entrada exitosamente");
             }
             catch (Exception ex)
             {
@@ -41,7 +41,7 @@ namespace CapaLogica
                 p.Entrada = Entrada;
                 p.Salida = Salida;
                 p.Actualizar();
-                MessageBox.Show("Los datos se Cargaron exitosamente");
+                MessageBox.Show("Se creo el registro de salida exitosamente");
             }
             catch (Exception ex)
             {
@@ -50,8 +50,23 @@ namespace CapaLogica
 
         }
 
+        public static void Eliminar(int CI)
+        {
+            try
+            {
+                ModeloRegistro p = new ModeloRegistro();
+                p.CI = CI;
+                p.Eliminar();
+                MessageBox.Show("El registro fue eliminado exitosamente");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("A ocurrido algun error");
+            }
+        }
 
-        
+
+
         private static void llenarTablaArbitro(DataTable tablaGeneral, int CI)
         {
             ModeloRegistro p = new ModeloRegistro();
