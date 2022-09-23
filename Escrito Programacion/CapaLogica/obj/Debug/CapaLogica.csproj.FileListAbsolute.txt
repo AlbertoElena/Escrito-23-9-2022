@@ -1,0 +1,28 @@
+C:\Users\Administrador\Desktop\Haiti-Tech-master\Backoffice Segunda Entrega\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\Haiti-Tech-master\Backoffice Segunda Entrega\CapaLogica\bin\Debug\CapaLogica.dll.config
+C:\Users\Administrador\Desktop\Haiti-Tech-master\Backoffice Segunda Entrega\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\Administrador\Desktop\Haiti-Tech-master\Backoffice Segunda Entrega\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\Administrador\Desktop\Haiti-Tech-master\Backoffice Segunda Entrega\CapaLogica\bin\Debug\CapaDeDatos.dll
+C:\Users\Administrador\Desktop\Haiti-Tech-master\Backoffice Segunda Entrega\CapaLogica\bin\Debug\MySqlConnector.dll
+C:\Users\Administrador\Desktop\Haiti-Tech-master\Backoffice Segunda Entrega\CapaLogica\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Administrador\Desktop\Haiti-Tech-master\Backoffice Segunda Entrega\CapaLogica\bin\Debug\CapaDeDatos.pdb
+C:\Users\Administrador\Desktop\Haiti-Tech-master\Backoffice Segunda Entrega\CapaLogica\bin\Debug\CapaDeDatos.dll.config
+C:\Users\Administrador\Desktop\Haiti-Tech-master\Backoffice Segunda Entrega\CapaLogica\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Administrador\Desktop\Haiti-Tech-master\Backoffice Segunda Entrega\CapaLogica\obj\Debug\CapaLogica.csprojAssemblyReference.cache
+C:\Users\Administrador\Desktop\Haiti-Tech-master\Backoffice Segunda Entrega\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Users\Administrador\Desktop\Haiti-Tech-master\Backoffice Segunda Entrega\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\Administrador\Desktop\Haiti-Tech-master\Backoffice Segunda Entrega\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\Administrador\Desktop\Escrito Programacion\CapaLogica\bin\Debug\CapaLogica.dll.config
+C:\Users\Administrador\Desktop\Escrito Programacion\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\Administrador\Desktop\Escrito Programacion\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\Administrador\Desktop\Escrito Programacion\CapaLogica\bin\Debug\CapaDeDatos.dll
+C:\Users\Administrador\Desktop\Escrito Programacion\CapaLogica\bin\Debug\MySqlConnector.dll
+C:\Users\Administrador\Desktop\Escrito Programacion\CapaLogica\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Administrador\Desktop\Escrito Programacion\CapaLogica\bin\Debug\CapaDeDatos.pdb
+C:\Users\Administrador\Desktop\Escrito Programacion\CapaLogica\bin\Debug\CapaDeDatos.dll.config
+C:\Users\Administrador\Desktop\Escrito Programacion\CapaLogica\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Administrador\Desktop\Escrito Programacion\CapaLogica\obj\Debug\CapaLogica.csprojAssemblyReference.cache
+C:\Users\Administrador\Desktop\Escrito Programacion\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\Escrito Programacion\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Users\Administrador\Desktop\Escrito Programacion\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\Administrador\Desktop\Escrito Programacion\CapaLogica\obj\Debug\CapaLogica.pdb
